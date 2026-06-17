@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T6DNFLFK');</script>
+<!-- End Google Tag Manager -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>POSMOS — 개인정보처리방침</title>
+<link rel="icon" href="posmosicon.png" type="image/png">
+<meta name="description" content="포스모스 개인정보처리방침. 수집 항목, 이용 목적, 보유 기간 등을 안내합니다.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://posmos.net/posmos-privacy.html">
+<meta property="og:title" content="POSMOS — 개인정보처리방침">
+<meta property="og:description" content="포스모스 개인정보처리방침. 수집 항목, 이용 목적, 보유 기간 등을 안내합니다.">
+<meta property="og:image" content="https://posmos.net/tosfront1.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="POSMOS — 개인정보처리방침">
+<meta name="twitter:description" content="포스모스 개인정보처리방침. 수집 항목, 이용 목적, 보유 기간 등을 안내합니다.">
+<meta name="twitter:image" content="https://posmos.net/tosfront1.png">
+<style>
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#ffffff;--bg1:#f5f5f8;--bg2:#ededf2;
+  --b0:rgba(0,0,0,0.05);--b1:rgba(0,0,0,0.10);--b2:rgba(0,0,0,0.16);
+  --t0:#0a0a14;--t1:#2c2c3a;--t2:#44445a;--t3:#808099;
+  --blue:#3b6bff;--blue2:#5a84ff;--blue-a:rgba(59,107,255,0.15);
+  --surface:#e8e8f0;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--t1);font-family:'Pretendard','Apple SD Gothic Neo',-apple-system,sans-serif;font-size:15.5px;line-height:1.65;overflow-x:hidden;-webkit-font-smoothing:antialiased;word-break:keep-all}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:200;height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 60px;background:rgba(255,255,255,0.88);backdrop-filter:blur(24px) saturate(1.5);border-bottom:1px solid var(--b1);transition:background .3s;box-shadow:0 1px 0 var(--b1),0 4px 24px rgba(0,0,0,0.08)}
+.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nav-center{display:flex;gap:0;list-style:none}
+.nav-center li a{color:#2a2a40;text-decoration:none;font-size:13.5px;font-weight:550;padding:8px 16px;border-radius:0;transition:all .2s;display:block;position:relative}
+.nav-center li a:hover{color:var(--t0)!important;background:rgba(0,0,0,0.04)!important;border-radius:6px!important}
+.nav-center li a.active{color:var(--blue)!important;background:none!important;font-weight:700!important}
+.nav-center li a.active::after{content:'';position:absolute;bottom:-1px;left:12px;right:12px;height:2px;background:var(--blue)}
+.nav-right{display:flex;gap:10px;align-items:center}
+.n-ghost{padding:8px 20px;border:1px solid var(--b2);border-radius:8px;color:var(--t1);font-size:13px;font-weight:500;background:none;cursor:pointer;text-decoration:none;transition:all .2s}
+.n-ghost:hover{background:var(--surface);color:var(--t0)}
+.n-cta{padding:9px 22px;border:none;border-radius:8px;background:linear-gradient(135deg,var(--blue) 0%,var(--blue2) 100%);box-shadow:0 2px 10px rgba(59,107,255,0.32);color:#fff;font-size:13px;font-weight:600;cursor:pointer;text-decoration:none;transition:all .2s}
+.n-cta:hover{box-shadow:0 6px 22px rgba(59,107,255,0.48);transform:translateY(-1px)}
+
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;background:none;border:none}
+.hamburger span{display:block;width:22px;height:2px;background:var(--t1);border-radius:2px;transition:all .3s}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0}
+.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.mobile-menu{display:none;position:fixed;top:72px;left:0;right:0;background:rgba(255,255,255,0.98);backdrop-filter:blur(24px);border-bottom:1px solid var(--b1);z-index:199;padding:16px 0 24px;flex-direction:column}
+.mobile-menu.open{display:flex}
+.mobile-menu a{padding:14px 28px;font-size:16px;font-weight:500;color:var(--t1);text-decoration:none;border-bottom:1px solid var(--b0);transition:color .2s}
+.mobile-menu .m-cta{margin:16px 24px 0;padding:14px;background:var(--blue);color:#fff!important;border-radius:12px;text-align:center;font-weight:700;border-bottom:none!important}
+
+.wrap{max-width:720px;margin:0 auto;padding:136px 40px 100px}
+
+.page-eyebrow{display:inline-flex;align-items:center;gap:8px;padding:5px 14px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:0.5px;margin-bottom:20px;font-family:'Pretendard',sans-serif;border:1px solid rgba(59,107,255,0.3);background:var(--blue-a);color:var(--blue2)}
+.page-h1{font-size:clamp(28px,4vw,44px);font-weight:800;letter-spacing:-1.5px;line-height:1.1;color:#08081a;margin-bottom:10px}
+.page-sub{font-size:14.5px;color:var(--t3);margin-bottom:48px}
+
+.prv-section{margin-bottom:40px}
+.prv-h2{font-size:17px;font-weight:700;color:#0d0d20;letter-spacing:-0.3px;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--b1);display:flex;align-items:center;gap:8px}
+.prv-num{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:7px;background:var(--blue);color:#fff;font-size:11px;font-weight:700;font-family:'Inter',sans-serif;flex-shrink:0}
+.prv-body{font-size:14.5px;color:#3a3a58;line-height:1.9}
+.prv-body p{margin-bottom:10px}
+.prv-body p:last-child{margin-bottom:0}
+.prv-body ul{padding-left:18px;margin-bottom:10px}
+.prv-body li{margin-bottom:6px}
+.prv-body strong{color:#0d0d20;font-weight:700}
+
+.prv-callout{background:rgba(59,107,255,0.05);border:1px solid rgba(59,107,255,0.18);border-radius:12px;padding:18px 22px;margin-top:16px;font-size:14px;color:#2a2a50;line-height:1.85}
+.prv-callout strong{color:#3b6bff}
+
+footer{border-top:1px solid rgba(0,0,0,0.10);background:#fafafa}
+.footer-inner{max-width:1200px;margin:0 auto;padding:52px 64px 34px}
+.footer-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:48px;flex-wrap:wrap;gap:32px}
+.footer-logo{display:flex;align-items:center;gap:10px;text-decoration:none;margin-bottom:14px}
+.footer-info{font-size:12.5px;color:#444460;line-height:2.1;max-width:340px}
+.footer-cols{display:flex;gap:56px;flex-wrap:wrap}
+.footer-col h5{font-size:10.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#888;margin-bottom:14px}
+.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+.footer-col a{font-size:13px;color:#444460;text-decoration:none;transition:color .2s}
+.footer-col a:hover{color:#0a0a14}
+.footer-bottom{border-top:1px solid var(--b1);padding-top:22px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+.footer-bottom p{font-size:12.5px;color:#555570}
+
+::selection{background:rgba(59,107,255,0.32);color:#fff}
+
+@media(max-width:900px){
+  nav{padding:0 20px}
+  .nav-center,.n-ghost{display:none!important}
+  .hamburger{display:flex!important}
+  .wrap{padding:108px 22px 72px}
+  .footer-inner{padding:38px 22px 26px}
+  .footer-top{flex-direction:column}
+  .footer-cols{gap:28px}
+}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <a class="nav-logo" href="index.html">
+    <img src="posmos-logo.png" alt="POSMOS" height="36" style="display:block">
+  </a>
+  <ul class="nav-center">
+    <li><a href="index.html">홈</a></li>
+    <li><a href="index.html#services">서비스</a></li>
+    <li><a href="index.html#pricing">요금제</a></li>
+    <li><a href="index.html#process">도입 과정</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="tel:15442485" class="n-ghost">1544-2485</a>
+    <a href="posmos-apply.html" class="n-cta">무료 상담</a>
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="메뉴">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="index.html">홈</a>
+  <a href="index.html#services">서비스</a>
+  <a href="index.html#pricing">요금제</a>
+  <a href="index.html#process">도입 과정</a>
+  <a href="posmos-apply.html" class="m-cta">📞 무료 상담 신청</a>
+</div>
+
+<div class="wrap">
+  <div class="page-eyebrow">✦ 개인정보처리방침</div>
+  <h1 class="page-h1">개인정보처리방침</h1>
+  <p class="page-sub">최종 업데이트: 2024년 1월 1일</p>
+
+  <div class="prv-section">
+    <h2 class="prv-h2"><span class="prv-num">1</span>수집하는 개인정보 항목 및 수집 방법</h2>
+    <div class="prv-body">
+      <p>(주)포스모스는 상담 신청 시 아래 항목만 수집합니다.</p>
+      <ul>
+        <li><strong>수집 항목:</strong> 연락처(전화번호), 매장 지역</li>
+        <li><strong>수집 방법:</strong> 웹사이트 상담 신청 양식</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="prv-section">
+    <h2 class="prv-h2"><span class="prv-num">2</span>수집 및 이용 목적</h2>
+    <div class="prv-body">
+      <p>수집한 개인정보는 <strong>상담 연락 및 서비스 안내</strong> 목적으로만 사용되며, 그 외 용도로는 사용하지 않습니다.</p>
+    </div>
+  </div>
+
+  <div class="prv-section">
+    <h2 class="prv-h2"><span class="prv-num">3</span>보유 및 이용 기간</h2>
+    <div class="prv-body">
+      <p>상담 완료 후 <strong>6개월 이내</strong> 파기합니다. 단, 관련 법령에 따라 보존이 필요한 경우 해당 기간 동안 보관합니다.</p>
+    </div>
+  </div>
+
+  <div class="prv-section">
+    <h2 class="prv-h2"><span class="prv-num">4</span>개인정보의 제3자 제공</h2>
+    <div class="prv-body">
+      <p>수집한 개인정보는 <strong>제3자에게 제공하지 않습니다.</strong></p>
+    </div>
+  </div>
+
+  <div class="prv-section">
+    <h2 class="prv-h2"><span class="prv-num">5</span>정보주체의 권리 및 문의</h2>
+    <div class="prv-body">
+      <p>이용자는 언제든지 개인정보 열람·정정·삭제·처리 정지를 요청할 수 있습니다.</p>
+      <div class="prv-callout">
+        전화: 1544-2485 · 이메일: info@posmos.net
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <a class="footer-logo" href="index.html">
+          <img src="posmos-logo.png" alt="POSMOS" height="32" style="display:block">
+        </a>
+        <p class="footer-info">(주)포스모스 · 대표자: 박은서<br>사업자등록번호: 330-86-02470<br>경기도 의정부시 의정로 16, 4F<br>대표번호: 1544-2485 · info@posmos.net</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h5>서비스</h5>
+          <ul>
+            <li><a href="index.html#services">무료 포스기</a></li>
+            <li><a href="index.html#services">배달 통합</a></li>
+            <li><a href="index.html#services">키오스크</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>정보</h5>
+          <ul>
+            <li><a href="index.html#pricing">요금제</a></li>
+            <li><a href="index.html#process">도입 과정</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>고객지원</h5>
+          <ul>
+            <li><a href="tel:15442485">1544-2485</a></li>
+            <li><a href="https://pf.kakao.com/_Rxolxkb">카카오 채널</a></li>
+            <li><a href="posmos-privacy.html" style="color:var(--blue)!important;font-weight:600">개인정보처리방침</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 POSMOS Co., Ltd. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+const _nav=document.getElementById('nav');
+window.addEventListener('scroll',()=>{_nav.style.background=window.scrollY>60?'rgba(255,255,255,0.97)':'rgba(255,255,255,0.88)'});
+(function(){
+  var btn=document.getElementById('hamburger');
+  var menu=document.getElementById('mobile-menu');
+  if(btn)btn.addEventListener('click',function(){
+    btn.classList.toggle('open');
+    menu.classList.toggle('open');
+  });
+})();
+</script>
+</body>
+</html>

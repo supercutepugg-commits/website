@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T6DNFLFK');</script>
+<!-- End Google Tag Manager -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>무료 상담 신청 — POSMOS</title>
+<link rel="icon" href="posmosicon.png" type="image/png">
+<meta name="description" content="포스기 무료 상담 신청. 전화번호와 지역만 남겨주시면 담당자가 1시간 내 직접 연락드립니다.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://posmos.net/posmos-apply.html">
+<meta property="og:title" content="무료 상담 신청 — POSMOS">
+<meta property="og:description" content="포스기 무료 상담 신청. 전화번호와 지역만 남겨주시면 담당자가 1시간 내 직접 연락드립니다.">
+<meta property="og:image" content="https://posmos.net/tosfront1.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="무료 상담 신청 — POSMOS">
+<meta name="twitter:description" content="포스기 무료 상담 신청. 전화번호와 지역만 남겨주시면 담당자가 1시간 내 직접 연락드립니다.">
+<meta name="twitter:image" content="https://posmos.net/tosfront1.png">
+<style>
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#ffffff;--bg1:#f5f5f8;--bg2:#ededf2;--bg3:#e5e5ea;
+  --surface:#e8e8f0;--surface2:#dfdfe8;
+  --b0:rgba(0,0,0,0.05);--b1:rgba(0,0,0,0.10);--b2:rgba(0,0,0,0.16);
+  --t0:#0a0a14;--t1:#2c2c3a;--t2:#44445a;--t3:#909090;
+  --blue:#3b6bff;--blue2:#5a84ff;--blue-a:rgba(59,107,255,0.15);
+  --gold:#c9a84c;--gold2:#e2c06a;--gold-a:rgba(201,168,76,0.12);
+  --green:#10b981;--green-a:rgba(16,185,129,0.12);
+  --red:#ef4444;--red-a:rgba(239,68,68,0.10);
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--t1);font-family:'Pretendard','Noto Sans KR',-apple-system,sans-serif;font-size:16px;line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:200;height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 60px;background:rgba(255,255,255,0.88);backdrop-filter:blur(24px) saturate(1.5);border-bottom:1px solid var(--b1);transition:background .3s}
+.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nav-logo-mark{width:36px;height:36px;border-radius:10px;background:linear-gradient(145deg,#2e5de0 0%,#6690ff 100%);box-shadow:0 0 18px rgba(59,107,255,0.40),inset 0 1px 0 rgba(255,255,255,0.18);display:flex;align-items:center;justify-content:center;font-family:'Inter',sans-serif;font-size:16px;font-weight:700;color:#fff}
+.nav-logo-text{font-family:'Inter',sans-serif;font-size:18px;font-weight:700;color:var(--t0);letter-spacing:1px;text-transform:uppercase}
+.nav-center{display:flex;gap:0;list-style:none}
+.nav-center li a{color:var(--t2);text-decoration:none;font-size:14px;font-weight:500;padding:8px 16px;border-radius:0;position:relative;transition:all .2s;display:block}
+.nav-center li a:hover{color:var(--t0);background:rgba(0,0,0,0.04);border-radius:6px}
+.nav-center li a.active{background:none;color:var(--blue);font-weight:700}
+.nav-center li a.active::after{content:'';position:absolute;bottom:-1px;left:12px;right:12px;height:2px;background:var(--blue)}
+.nav-right{display:flex;gap:10px;align-items:center}
+.n-ghost{padding:8px 20px;border:1px solid var(--b2);border-radius:8px;color:var(--t1);font-size:13px;font-weight:500;background:none;cursor:pointer;text-decoration:none;transition:all .2s}
+.n-ghost:hover{background:var(--surface);color:var(--t0)}
+.n-cta{padding:9px 22px;border:none;border-radius:8px;background:linear-gradient(135deg,var(--blue) 0%,var(--blue2) 100%);box-shadow:0 2px 10px rgba(59,107,255,0.32);color:#fff;font-size:13px;font-weight:600;cursor:pointer;text-decoration:none;transition:all .2s}
+.n-cta:hover{box-shadow:0 6px 22px rgba(59,107,255,0.48);transform:translateY(-1px)}
+
+.hamburger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:6px}
+.hamburger span{display:block;width:22px;height:2px;background:var(--t0);border-radius:2px;transition:all .25s}
+.mobile-menu{display:none;flex-direction:column;position:fixed;top:72px;left:0;right:0;background:rgba(255,255,255,0.97);backdrop-filter:blur(24px);border-bottom:1px solid var(--b1);padding:16px 24px 24px;gap:4px;z-index:199}
+.mobile-menu.open{display:flex}
+.mobile-menu a{color:var(--t1);text-decoration:none;font-size:15px;font-weight:500;padding:10px 0;border-bottom:1px solid var(--b0)}
+.mobile-menu a.active{color:var(--blue);font-weight:700}
+.mobile-menu .m-cta{margin-top:8px;padding:12px 0;text-align:center;background:var(--blue);color:#fff;border-radius:10px;border-bottom:none;font-weight:700}
+
+@media(max-width:900px){
+  nav{padding:0 20px}
+  .nav-center,.n-ghost{display:none!important}
+  .hamburger{display:flex!important}
+  .apply-card{padding:32px 22px}
+  .apply-h1{font-size:clamp(24px,6vw,34px)}
+  .apply-wrap{padding:100px 16px 60px}
+}
+
+.apply-wrap{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:120px 24px 80px;position:relative;overflow:hidden}
+.apply-bg{position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(59,107,255,0.10) 0%,transparent 65%),radial-gradient(ellipse 40% 30% at 90% 80%,rgba(59,107,255,0.05) 0%,transparent 60%);pointer-events:none}
+
+.apply-card{position:relative;background:#fff;border:1px solid rgba(0,0,0,0.09);border-radius:28px;box-shadow:0 20px 80px rgba(0,0,0,0.08),0 4px 20px rgba(0,0,0,0.04);padding:56px 52px;width:100%;max-width:520px}
+
+.apply-eyebrow{display:inline-flex;align-items:center;gap:8px;padding:5px 14px;border-radius:100px;border:1px solid rgba(59,107,255,0.3);background:var(--blue-a);color:var(--blue2);font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;margin-bottom:20px}
+.apply-dot{width:5px;height:5px;border-radius:50%;background:var(--blue);animation:blink 2s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+.apply-h1{font-family:'Inter','Pretendard',sans-serif;font-size:clamp(28px,5vw,38px);font-weight:800;letter-spacing:-1.5px;line-height:1.1;color:var(--t0);margin-bottom:10px}
+.apply-h1 em{font-style:normal;color:var(--blue2)}
+.apply-sub{font-size:14px;color:var(--t2);line-height:1.7;margin-bottom:36px}
+
+.apply-form{display:flex;flex-direction:column;gap:20px}
+.form-group{display:flex;flex-direction:column;gap:7px}
+.form-label{font-size:13px;font-weight:600;color:var(--t1);letter-spacing:0.2px}
+.form-label span{color:var(--red);margin-left:2px}
+.form-input{width:100%;padding:14px 18px;background:var(--bg1);border:1.5px solid var(--b1);border-radius:12px;color:var(--t0);font-size:15px;font-family:inherit;outline:none;transition:border-color .2s,box-shadow .2s}
+.form-input:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(59,107,255,0.12);background:#fff}
+.form-input::placeholder{color:var(--t3)}
+
+.form-select{width:100%;padding:14px 18px;background:var(--bg1);border:1.5px solid var(--b1);border-radius:12px;color:var(--t0);font-size:15px;font-family:inherit;outline:none;cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23909090' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;transition:border-color .2s,box-shadow .2s}
+.form-select:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(59,107,255,0.12);background-color:#fff}
+
+.form-privacy{display:flex;align-items:flex-start;gap:10px;cursor:pointer}
+.form-privacy input[type=checkbox]{width:18px;height:18px;accent-color:var(--blue);margin-top:1px;flex-shrink:0;cursor:pointer}
+.form-privacy-text{font-size:13px;color:var(--t2);line-height:1.5}
+.form-privacy-text a{color:var(--blue2);text-decoration:none;font-weight:600}
+.form-privacy-text a:hover{text-decoration:underline}
+
+.apply-submit{width:100%;padding:17px;border:none;border-radius:13px;background:linear-gradient(135deg,#2d5ee8 0%,#5a84ff 100%);color:#fff;font-size:16px;font-weight:700;cursor:pointer;font-family:inherit;box-shadow:0 6px 24px rgba(59,107,255,0.35),inset 0 1px 0 rgba(255,255,255,0.15);transition:all .25s cubic-bezier(.16,1,.3,1);letter-spacing:-0.2px;display:flex;align-items:center;justify-content:center;gap:8px}
+.apply-submit:hover{transform:translateY(-2px);box-shadow:0 12px 36px rgba(59,107,255,0.48)}
+.apply-submit:active{transform:translateY(0)}
+.apply-submit:disabled{opacity:.6;cursor:not-allowed;transform:none}
+
+.apply-trust{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:24px;flex-wrap:wrap}
+.trust-item{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--t3);font-weight:500}
+.trust-icon{font-size:14px}
+
+.apply-divider{display:flex;align-items:center;gap:12px;margin:8px 0}
+.apply-divider-line{flex:1;height:1px;background:var(--b1)}
+.apply-divider-text{font-size:12px;color:var(--t3);white-space:nowrap}
+
+.apply-alt{display:flex;gap:10px;flex-direction:column}
+.alt-btn{display:flex;align-items:center;justify-content:center;gap:8px;padding:13px;border:1.5px solid var(--b1);border-radius:12px;font-size:14px;font-weight:600;color:var(--t1);text-decoration:none;transition:all .2s;background:var(--bg1)}
+.alt-btn:hover{border-color:var(--b2);background:var(--bg2);color:var(--t0)}
+
+.apply-success{display:none;text-align:center;padding:20px 0}
+.success-icon{font-size:56px;margin-bottom:20px;display:block}
+.success-title{font-size:24px;font-weight:800;color:var(--t0);margin-bottom:10px;letter-spacing:-0.5px}
+.success-desc{font-size:15px;color:var(--t2);line-height:1.7}
+
+.apply-aside{width:100%;max-width:380px;padding:0 0 0 40px}
+.aside-title{font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--t3);margin-bottom:20px}
+.aside-items{display:flex;flex-direction:column;gap:20px}
+.aside-item{display:flex;gap:14px;align-items:flex-start}
+.aside-item-icon{width:40px;height:40px;border-radius:12px;background:var(--blue-a);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.aside-item-text h4{font-size:14px;font-weight:700;color:var(--t0);margin-bottom:3px}
+.aside-item-text p{font-size:13px;color:var(--t2);line-height:1.6}
+.aside-nums{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:32px;padding-top:28px;border-top:1px solid var(--b1)}
+.aside-num{text-align:center;padding:16px 12px;background:var(--bg1);border-radius:14px;border:1px solid var(--b1)}
+.aside-num-val{font-family:'Inter',sans-serif;font-size:22px;font-weight:800;letter-spacing:-1px;color:var(--blue2);display:block;margin-bottom:3px}
+.aside-num-lbl{font-size:11px;color:var(--t3);font-weight:600;letter-spacing:1px;text-transform:uppercase}
+
+.apply-inner{display:flex;align-items:flex-start;justify-content:center;gap:0;width:100%;max-width:900px}
+@media(max-width:860px){
+  .apply-inner{flex-direction:column;align-items:center}
+  .apply-aside{padding:32px 0 0;max-width:520px}
+  .apply-card{padding:36px 28px}
+  .aside-nums{margin-top:20px}
+}
+
+.fu{animation:fadeUp .6s ease both}
+.fu1{animation-delay:.05s}.fu2{animation-delay:.18s}.fu3{animation-delay:.30s}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+
+footer{border-top:1px solid var(--b1);background:#fafafa}
+.footer-inner{max-width:1200px;margin:0 auto;padding:40px 60px 28px}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+.footer-bottom p{font-size:12px;color:var(--t3)}
+.footer-badges{display:flex;gap:8px}
+.fbadge{padding:4px 10px;border:1px solid var(--b1);border-radius:6px;font-size:11px;color:var(--t3)}
+@media(max-width:900px){.footer-inner{padding:28px 20px}}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <a class="nav-logo" href="index.html"><img src="posmos-logo.png" alt="POSMOS" height="36" style="display:block"></a>
+  <ul class="nav-center">
+    <li><a href="index.html">홈</a></li>
+    <li><a href="index.html#services">서비스</a></li>
+    <li><a href="index.html#pricing">요금제</a></li>
+    <li><a href="index.html#process">도입 과정</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="tel:15442485" class="n-ghost">1544-2485</a>
+    <a href="posmos-apply.html" class="n-cta">무료 상담</a>
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="메뉴">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="index.html">홈</a>
+  <a href="index.html#services">서비스</a>
+  <a href="index.html#process">도입 과정</a>
+  <a href="index.html#pricing">요금제</a>
+  <a href="posmos-apply.html" class="m-cta">📞 무료 상담 신청</a>
+</div>
+
+<div class="apply-wrap">
+  <div class="apply-bg"></div>
+
+  <div class="apply-inner">
+    
+    <div class="apply-card fu fu1">
+      
+      <div id="formState">
+        <div class="apply-eyebrow">
+          <span class="apply-dot"></span>
+          무료 상담 신청
+        </div>
+        <h1 class="apply-h1">포스기가<br><em>무료</em>인지 확인하세요</h1>
+        <p class="apply-sub">전화번호와 지역만 남겨주시면<br>담당자가 <strong>1시간 내</strong> 직접 연락드립니다.</p>
+
+        <div class="apply-form" id="applyForm">
+          <div class="form-group">
+            <label class="form-label">전화번호<span>*</span></label>
+            <input class="form-input" id="inputPhone" type="tel" placeholder="010-0000-0000" maxlength="13" autocomplete="tel">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">지역<span>*</span></label>
+            <input class="form-input" id="inputRegion" type="text" placeholder="예) 서울 강남, 경기 의정부" autocomplete="off">
+          </div>
+
+          <label class="form-privacy">
+            <input type="checkbox" id="privacyCheck">
+            <span class="form-privacy-text">
+              <a href="posmos-privacy.html" target="_blank">개인정보처리방침</a>에 동의하며, 상담 목적으로 연락받는 것에 동의합니다.
+            </span>
+          </label>
+
+          <button class="apply-submit" id="submitBtn" onclick="handleSubmit()">
+            무료 상담 신청하기 →
+          </button>
+        </div>
+
+        <div class="apply-trust">
+          <span class="trust-item"><span class="trust-icon">🔒</span> 개인정보 안전 보호</span>
+          <span class="trust-item"><span class="trust-icon">⚡</span> 1시간 내 응답</span>
+          <span class="trust-item"><span class="trust-icon">🚫</span> 스팸 없음</span>
+        </div>
+
+        <div class="apply-divider">
+          <div class="apply-divider-line"></div>
+          <span class="apply-divider-text">또는 직접 연락</span>
+          <div class="apply-divider-line"></div>
+        </div>
+
+        <div class="apply-alt">
+          <a href="tel:15442485" class="alt-btn">📞 1544-2485 바로 전화</a>
+          <a href="https://pf.kakao.com/_Rxolxkb" class="alt-btn">💬 카카오 채널 상담</a>
+        </div>
+      </div>
+
+      
+      <div class="apply-success" id="successState">
+        <span class="success-icon">✅</span>
+        <p class="success-title">신청이 완료됐습니다!</p>
+        <p class="success-desc">담당자가 <strong>영업일 기준 1시간 내</strong>로<br>직접 연락드리겠습니다.<br><br>문의사항은 <a href="tel:15442485" style="color:var(--blue2);font-weight:700;text-decoration:none">1544-2485</a>로 연락주세요.</p>
+      </div>
+    </div>
+
+    
+    <div class="apply-aside fu fu2">
+      <p class="aside-title">왜 포스모스인가요?</p>
+      <div class="aside-items">
+        <div class="aside-item">
+          <div class="aside-item-icon">💰</div>
+          <div class="aside-item-text">
+            <h4>포스기·단말기 무료 제공</h4>
+            <p>기기 구매·렌탈 비용 없이<br>월 34,000원~으로 모든 게 해결됩니다.</p>
+          </div>
+        </div>
+        <div class="aside-item">
+          <div class="aside-item-icon">🚀</div>
+          <div class="aside-item-text">
+            <h4>상담 후 최단 3일 설치</h4>
+            <p>서류 준비부터 설치 완료까지<br>빠르게 진행해드립니다.</p>
+          </div>
+        </div>
+        <div class="aside-item">
+          <div class="aside-item-icon">🛠️</div>
+          <div class="aside-item-text">
+            <h4>24시간 A/S 지원</h4>
+            <p>영업 중 장애 발생 시<br>즉시 출동 대응합니다.</p>
+          </div>
+        </div>
+        <div class="aside-item">
+          <div class="aside-item-icon">📦</div>
+          <div class="aside-item-text">
+            <h4>배달 3사 + 토스 프론트 연동</h4>
+            <p>배민·쿠팡이츠·요기요와<br>PG 수수료 없이 연동됩니다.</p>
+          </div>
+        </div>
+      </div>
+      <div class="aside-nums">
+        <div class="aside-num">
+          <span class="aside-num-val">₩0</span>
+          <span class="aside-num-lbl">포스기 비용</span>
+        </div>
+        <div class="aside-num">
+          <span class="aside-num-val">₩0</span>
+          <span class="aside-num-lbl">추가 수수료</span>
+        </div>
+        <div class="aside-num">
+          <span class="aside-num-val">24h</span>
+          <span class="aside-num-lbl">A/S 지원</span>
+        </div>
+        <div class="aside-num">
+          <span class="aside-num-val">120+</span>
+          <span class="aside-num-lbl">최근 3개월 도입</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-bottom">
+      <p>© 2026 POSMOS Co., Ltd. All Rights Reserved. · (주)포스모스 · 1544-2485 · info@posmos.net</p>
+      <div class="footer-badges">
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+
+const _nav=document.getElementById('nav');
+window.addEventListener('scroll',()=>{_nav.style.background=window.scrollY>60?'rgba(255,255,255,0.97)':'rgba(255,255,255,0.88)'});
+
+(function(){
+  var btn=document.getElementById('hamburger');
+  var menu=document.getElementById('mobile-menu');
+  if(btn)btn.addEventListener('click',function(){btn.classList.toggle('open');menu.classList.toggle('open')});
+})();
+
+document.getElementById('inputPhone').addEventListener('input',function(){
+  var v=this.value.replace(/\D/g,'');
+  if(v.length<=3)this.value=v;
+  else if(v.length<=7)this.value=v.slice(0,3)+'-'+v.slice(3);
+  else this.value=v.slice(0,3)+'-'+v.slice(3,7)+'-'+v.slice(7,11);
+});
+
+function handleSubmit(){
+  var phone=document.getElementById('inputPhone').value.trim();
+  var region=document.getElementById('inputRegion').value.trim();
+  var privacy=document.getElementById('privacyCheck').checked;
+
+  if(!phone||phone.length<9){alert('전화번호를 올바르게 입력해주세요.');return;}
+  if(!region){alert('지역을 입력해주세요.');return;}
+  if(!privacy){alert('개인정보 수집·이용에 동의해주세요.');return;}
+
+  var btn=document.getElementById('submitBtn');
+  btn.disabled=true;
+  btn.textContent='처리 중...';
+
+  fetch('https://formspree.io/f/xgobbwjd',{
+    method:'POST',
+    headers:{'Content-Type':'application/json','Accept':'application/json'},
+    body:JSON.stringify({전화번호:phone,지역:region})
+  })
+  .then(function(res){
+    if(res.ok){
+      document.getElementById('formState').style.display='none';
+      document.getElementById('successState').style.display='block';
+    } else {
+      btn.disabled=false;
+      btn.textContent='무료 상담 신청하기 →';
+      alert('오류가 발생했습니다. 잠시 후 다시 시도해주세요.');
+    }
+  })
+  .catch(function(){
+    btn.disabled=false;
+    btn.textContent='무료 상담 신청하기 →';
+    alert('네트워크 오류가 발생했습니다. 잠시 후 다시 시도해주세요.');
+  });
+}
+</script>
+</body>
+</html>
