@@ -341,7 +341,7 @@ function handleSubmit(){
   fetch('https://formspree.io/f/xgobbwjd',{
     method:'POST',
     headers:{'Content-Type':'application/json','Accept':'application/json'},
-    body:JSON.stringify({전화번호:phone,지역:region})
+    body:JSON.stringify({전화번호:phone,지역:region,유입경로:new URLSearchParams(window.location.search).get('from')||'직접접속'})
   })
   .then(function(res){
     if(res.ok){
