@@ -272,9 +272,12 @@ footer{border-top:1px solid rgba(0,0,0,0.12);background:#fafafa}
 @media(max-width:900px){
   .svc-price{flex-wrap:nowrap;white-space:nowrap}
   .price-suffix,.price-was{white-space:nowrap}
-  nav{padding:0 20px}
-  .nav-center,.n-ghost{display:none!important}
-  .hamburger{display:flex!important}
+  nav{padding:0 12px;position:relative}
+  .nav-right,.n-ghost,.n-cta{display:none!important}
+  .hamburger{display:none!important}
+  .nav-center{display:flex!important;flex-wrap:nowrap;gap:2px;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)}
+  .nav-center li a{font-size:14px;font-weight:700;padding:7px 5px;letter-spacing:-0.03em;color:var(--t0);white-space:nowrap}
+  .nav-center li a.active{background:var(--blue-a)!important;border-radius:8px!important}
   .slide-h1{letter-spacing:-2.5px}
   .slide-arrow{display:none}
   .slide-stats-inner{flex-wrap:wrap}
@@ -321,7 +324,10 @@ footer{border-top:1px solid rgba(0,0,0,0.12);background:#fafafa}
 
 <nav id="nav">
   <a class="nav-logo" href="#top">
-    <img src="posmos-logo.png" alt="POSMOS" height="36" style="display:block">
+    <picture>
+      <source media="(max-width:900px)" srcset="posmosicon.png">
+      <img src="posmos-logo.png" alt="POSMOS" height="36" style="display:block">
+    </picture>
   </a>
   <ul class="nav-center">
     <li><a href="#top" class="active" data-section="top">홈</a></li>
@@ -825,7 +831,7 @@ document.querySelectorAll('.faq-item').forEach(function(item){
           <li>VAN 연계 확장까지 지원</li>
           <li>상담을 통해 무상/유상 개발 여부 안내</li>
         </ul>
-        <a href="posmos-apply.html?from=서비스탭-개발문의" class="plan-btn" style="background:var(--blue);color:#fff;display:inline-block;margin-top:20px">우리 매장, 지원 대상인지 확인하기 →</a>
+        <a href="posmos-apply.html?from=서비스탭-개발문의" class="plan-btn" style="background:var(--blue);color:#fff;display:inline-block;margin-top:20px">개발 문의하기 →</a>
       </div>
       <div class="svc-feature-img" style="height:480px">
         <img src="devrequest-checklist.jpg" alt="매장 적합 여부를 체크리스트로 확인하는 모습" loading="lazy" style="height:100%;object-fit:cover">
