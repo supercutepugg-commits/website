@@ -991,6 +991,7 @@ var sections=[
   {id:'supply',el:document.getElementById('supply')},
   {id:'devrequest',el:document.getElementById('devrequest')}
 ];
+var navSectionAlias={services:'pricing',tossfront:'pricing',kiosk:'pricing',tableorder:'pricing',qrorder:'pricing'};
 function updateNav(){
   var scrollY=window.scrollY+100;
   var current='top';
@@ -999,6 +1000,7 @@ function updateNav(){
       current=s.id;
     }
   });
+  current=navSectionAlias[current]||current;
   document.querySelectorAll('.nav-center li a').forEach(function(a){
     a.classList.toggle('active',a.dataset.section===current);
   });
